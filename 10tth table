@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+    int a ;
+    printf("Table of 10\n");
+    for ( a = 1 ; a <= 10 ; a ++ )
+    {
+         printf ( "10*%d = %d\n",a,10*a ) ;
+    }
+    return 0;
+}
